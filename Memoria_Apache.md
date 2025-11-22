@@ -145,8 +145,3 @@ Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
 Configuración de Apache (Pasos 3, 4 y 5): https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
 
 ChatGPT: https://chatgpt.com/
-
-
-
-
-
