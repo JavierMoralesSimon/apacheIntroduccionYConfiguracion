@@ -49,28 +49,39 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
    ![Actualizar el sistema](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/1.png)
    
    **1.2.** Instalar Apache mediante el comando `sudo apt install apache2 -y`
-
+   ![Instalar Apache](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/2.png)
+   
    **1.3.** Verificar la instalación mediante el comando `hostname -I`
-
+   ![Verificar la instalación](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/3.png)
+   
    **1.4.** Configurar el usuario y grupo de Apache mediante el comando `sudo nano /etc/apache2/envvars`
-
+   ![Configurar el usuario y grupo de Apache](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/4.png)
+   
    **1.5.** Configurar el directorio raíz mediante el comando `sudo nano /etc/apache2/apache2.conf` y dejarlo como
       `<Directory /var/www/>
           Options Indexes FollowSymLinks
           AllowOverride All
           Require all granted
        </Directory>`
-
+   ![Configurar el directorio raíz #1](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/5.png)
+   ![Configurar el directorio raíz #2](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/6.png)
+   
    **1.6.** Habilitar módulos de Apache mediante los comandos `sudo a2enmod headers` y `sudo a2enmod rewrite`
-
+   ![Habilitar módulos de Apache](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/7.png)
+   
    **1.7.** Establecer propiedades del directorio de documentos mediante el comando `sudo chown -R $USER:$USER /var/www/html`
-
+   ![Establecer propiedades del directorio de documentos](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/8.png)
+   
    **1.8.** Reiniciar Apache mediante el comando `sudo systemctl restart apache2`
-
+   ![Reiniciar Apache](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/9.png)
+   
    **1.9.** Compobación de que la instalación fue exitosa
+   ![Compobación de que la instalación fue exitosa](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/10.png)
+   
 ### Conclusión
 
 ### Bibliografía
 Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
 
 ### Bibliografía
+
