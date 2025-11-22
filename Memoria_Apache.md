@@ -1,7 +1,14 @@
 # Instalación y configuración de Apache
-   * Resumen: 
+   * Resumen:
+     Este trabajo consiste en una guía detallada paso a paso de como instalar primero el servidor web Apache y como configurarlo después para su correcto funcionamiento a la hora de recibir solicitudes HTTP o HTTPS, procesarlas y devolver una respuesta. Además se habla un poco de su historia y se comentan posibles alternativas.
    * Palabras clave:
-        * servidor web apache, servidor web, servidor apache, apache, apache instalación, apache configuración, apache alternativas.
+        * Servidor web Apache.
+        * Servidor web.
+        * Servidor Apache.
+        * Apache.
+        * Apache instalación.
+        * Apache configuración.
+        * Apache alternativas.
    * Índice:
         * Introducción.
         * Cuerpo:
@@ -136,4 +143,5 @@ Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
 Configuración de Apache (Pasos 3, 4 y 5): https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
 
 ChatGPT: https://chatgpt.com/
+
 
