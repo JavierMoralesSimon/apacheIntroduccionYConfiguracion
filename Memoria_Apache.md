@@ -43,6 +43,34 @@ Posibles alternativas son:
 
 La motivación detrás de este trabajo es llevar a cabo la práctica propuesta para el módulo la cual es conseguir un intermediario que sería Apache, que nos permita conectar el cliente con el servidor.
 ### Cuerpo
+1. Instalación:
 
+   **1.1.** Actualizar el sistema mediante los comandos `sudo apt update` y `sudo apt upgrade -y`
+   ![Actualizar el sistema](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/1.png)
+   
+   **1.2.** Instalar Apache mediante el comando `sudo apt install apache2 -y`
+
+   **1.3.** Verificar la instalación mediante el comando `hostname -I`
+
+   **1.4.** Configurar el usuario y grupo de Apache mediante el comando `sudo nano /etc/apache2/envvars`
+
+   **1.5.** Configurar el directorio raíz mediante el comando `sudo nano /etc/apache2/apache2.conf` y dejarlo como
+      `<Directory /var/www/>
+          Options Indexes FollowSymLinks
+          AllowOverride All
+          Require all granted
+       </Directory>`
+
+   **1.6.** Habilitar módulos de Apache mediante los comandos `sudo a2enmod headers` y `sudo a2enmod rewrite`
+
+   **1.7.** Establecer propiedades del directorio de documentos mediante el comando `sudo chown -R $USER:$USER /var/www/html`
+
+   **1.8.** Reiniciar Apache mediante el comando `sudo systemctl restart apache2`
+
+   **1.9.** Compobación de que la instalación fue exitosa
 ### Conclusión
+
+### Bibliografía
+Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
+
 ### Bibliografía
