@@ -1,7 +1,8 @@
 # Instalación y configuración de Apache
-Resumen:
-Palabras clave:
-Índice:
+   * Resumen:
+   * Palabras clave:
+   * Índice:
+        * Introducción
 ### Introducción
 El trabajo a realizar de tanto instalar como configurar el servidor web Apache se ha desarrollado en una clase del módulo 
 de DAW del CFGS 2º DAW del instituto I.E.S. Juan Bosco, ubicado en Alcázar de San Juan, España.
@@ -126,5 +127,7 @@ Se consiguió instalar y configurar correctamente el servidor web Apache, quedan
 
 ### Bibliografía
 Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
+
 Configuración de Apache (Pasos 3, 4 y 5): https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
+
 ChatGPT: https://chatgpt.com/
