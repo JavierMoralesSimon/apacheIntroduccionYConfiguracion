@@ -99,7 +99,7 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
    **2.6.** Editar el archivo de configuración mediante el comando `sudo nano gci.conf`
    ![Editar el archivo de configuración #1](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/16.png)
    
-   **2.7.** Colocar nuestro correo electrónico en ServerAdmin para que los usuarios puedan contactarnos en caso de que Apache experimente algún error, que la directiva DocumentRoot apunte al directorio donde están alojados los archivos de nuestro sitio y por último, como el archivo predeterminado no incluye una directiva ServerName, tendremos que añadirla y definirla agregando una línea concreta debajo de la última directiva:
+   **2.7.** Colocar nuestro correo electrónico en ServerAdmin para que los usuarios puedan contactarnos en caso de que Apache experimente algún error, que la directiva DocumentRoot apunte al directorio donde están alojados los archivos de nuestro sitio y por último, como el archivo predeterminado no incluye una directiva ServerName, tendremos que añadirla y definirla agregando una línea concreta debajo de la última directiva
    ![Editar el archivo de configuración #2](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/17.png)
    
    **2.8.** Activar el archivo de configuración del host virtual mediante el comando `sudo a2ensite gci.conf`
@@ -111,19 +111,20 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
    **2.10.** Poner nuestro nombre de host en el navegador e identificarse
    ![Poner nuestro nombre de host en el navegador e identificarse](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/20.png)
 
-   **2.11.** Nos da error por lo que hay que hacer un cambio
+   **2.11.** Nos da error ya que Ubuntu tiene interno un dns, por lo que al poner "gci.example.com" no lo encuentra
    ![Nos da error por lo que hay que hacer un cambio](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/21.png)
 
-   **2.12.** Mediante el comando `sudo nano /etc/hosts` añadimos la línea `127.0.0.1 gci.example.com`
-   ![Editar /etc/hosts #1](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/22.png)
-   ![Editar /etc/hosts #2](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/23.png)
+   **2.12.** Solucionamos el problema anterior mediante el comando `sudo nano /etc/hosts` y añadiendo ahí la línea `127.0.0.1 gci.example.com`
+   ![Solución al problema anterior #1](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/22.png)
+   ![Solución al problema anterior #2](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/23.png)
 
    **2.13.** Volvemos a comprobar la página en el navegador y ahora ya sí va
    ![Volvemos a comprobar la página en el navegador y ahora ya sí va](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/24.png)
 
 ### Conclusión
+Se consiguió instalar y configurar correctamente el servidor web Apache, quedando este desplegado y operativo para la gestión de peticiones HTTP y la entrega de archivos a los clientes. Como valoración personal, el trabajo permitió comprender mejor cómo funciona un servidor web.
 
 ### Bibliografía
 Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
-Configuración de Apache: https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
+Configuración de Apache (Pasos 3, 4 y 5): https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
 ChatGPT: https://chatgpt.com/
