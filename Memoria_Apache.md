@@ -18,7 +18,7 @@
             * Configuración.
         * Conclusión.
         * Bibliografía.
-### Introducción
+## Introducción
 El trabajo a realizar de tanto instalar como configurar el servidor web Apache se ha desarrollado en una clase del módulo de DAW del CFGS 2º DAW del instituto I.E.S. Juan Bosco, ubicado en Alcázar de San Juan, España.
 
 Como se ha comentado, el entorno usado es Apache, un servidor web que nació en 1995 por un grupo de desarrolladores que decidió continuar trabajando sobre el código del servidor NCSA HTTPd, que era el más popular en aquellos tiempos aunque había dejado de actualizarse. Su nombre proviene tanto de una referencia a la tribu nativa americana Apache como del juego de palabras "a patchy server" que quiere decir "un servidor lleno de parches" ya que inicialmente estaba hecho a partir de “parches” del servidor NCSA.
@@ -57,7 +57,7 @@ Posibles alternativas son:
     * Soporta balanceo, autenticación y proxy.
 
 La motivación detrás de este trabajo es llevar a cabo la práctica propuesta para el módulo la cual es conseguir un intermediario que sería Apache, que nos permita conectar el cliente con el servidor.
-### Cuerpo
+## Cuerpo
 1. Instalación:
 
    **1.1.** Actualizar el sistema mediante los comandos `sudo apt update` y `sudo apt upgrade -y`
@@ -136,15 +136,16 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
    **2.13.** Volvemos a comprobar la página en el navegador y ahora ya sí va
    ![Volvemos a comprobar la página en el navegador y ahora ya sí va](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/24.png)
 
-### Conclusión
+## Conclusión
 Se consiguió instalar y configurar correctamente el servidor web Apache, quedando este desplegado y operativo para la gestión de peticiones HTTP y la entrega de archivos a los clientes. Como valoración personal, el trabajo permitió comprender mejor cómo funciona un servidor web.
 
-### Bibliografía
+## Bibliografía
 Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
 
 Configuración de Apache (Pasos 3, 4 y 5): https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
 
 ChatGPT: https://chatgpt.com/
+
 
 
 
