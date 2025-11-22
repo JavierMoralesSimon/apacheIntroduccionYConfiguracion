@@ -58,6 +58,7 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
    ![Configurar el usuario y grupo de Apache](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/4.png)
    
    **1.5.** Configurar el directorio raíz mediante el comando `sudo nano /etc/apache2/apache2.conf` y dejarlo como
+   
       `<Directory /var/www/>
           Options Indexes FollowSymLinks
           AllowOverride All
@@ -84,4 +85,5 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
 Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
 
 ### Bibliografía
+
 
