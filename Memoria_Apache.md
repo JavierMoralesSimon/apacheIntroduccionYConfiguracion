@@ -59,11 +59,11 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
    
    **1.5.** Configurar el directorio raíz mediante el comando `sudo nano /etc/apache2/apache2.conf` y dejarlo como
    
-      `<Directory /var/www/>`
-          `Options Indexes FollowSymLinks`
-          `AllowOverride All`
-          `Require all granted`
-       `</Directory>`
+      `<Directory /var/www/>
+          Options Indexes FollowSymLinks
+          AllowOverride All
+          Require all granted
+       </Directory>`
    ![Configurar el directorio raíz #1](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/5.png)
    ![Configurar el directorio raíz #2](https://github.com/JavierMoralesSimon/apacheIntroduccionYConfiguracion/blob/main/Capturas/6.png)
    
@@ -85,6 +85,7 @@ La motivación detrás de este trabajo es llevar a cabo la práctica propuesta p
 Instalación de Apache: https://foro.puntocomunica.com/viewtopic.php?t=312
 
 ### Bibliografía
+
 
 
 
